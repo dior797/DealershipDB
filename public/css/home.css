@@ -1,0 +1,31 @@
+
+.link1, .link2{
+    font-size: 50px;
+    background-color: rgb(117, 117, 117);
+    justify-content: center;
+    padding: 100px;
+
+}
+.link1{
+    float: left;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.link2{
+   float: left;
+    margin: auto;
+    padding: 100px;
+    color: white;
+}
+  
+.together{
+    display: flex;
+    margin-top: 14%;
+}
+  
+  .link1:hover,.link2:hover{
+    background-color: black;
+}
+

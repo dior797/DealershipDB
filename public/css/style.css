@@ -1,0 +1,55 @@
+html {
+  margin: -8px;
+  background-color: lightgray;
+  overflow-x: hidden;
+
+}
+
+h1 {
+  background-color: black;
+  text-align: center;
+}
+
+nav {
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  background-color: rgb(117, 117, 117);
+  padding: .4vw;
+  overflow: hidden;
+
+}
+
+.appear {
+  display: flex;
+  flex-wrap: wrap;
+  border: black solid 2px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.itemclass {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+

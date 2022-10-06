@@ -1,0 +1,17 @@
+.enter{
+  color: aqua;
+  width: 20%;
+}
+  .enter:hover {
+    background-color:yellow;
+  }
+  
+  div {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .buttonss, #meow{
+    color: aquamarine;  
+    list-style-type: none;
+  } 
+  
